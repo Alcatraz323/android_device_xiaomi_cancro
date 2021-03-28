@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_cancro.mk
+    $(LOCAL_DIR)/aosp_cancro.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_cancro-user \
-    nad_cancro-userdebug \
-    nad_cancro-eng
+    aosp_cancro-user \
+    aosp_cancro-userdebug \
+    aosp_cancro-eng

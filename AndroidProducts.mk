@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_cancro.mk
+    $(LOCAL_DIR)/nusan_cancro.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_cancro-user \
-    evolution_cancro-userdebug \
-    evolution_cancro-eng
+    nusan_cancro-user \
+    nusan_cancro-userdebug \
+    nusan_cancro-eng

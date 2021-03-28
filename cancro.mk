@@ -51,11 +51,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/nfc/nfcee_access_debug.xml:system/etc/nfcee_access.xml
 
 # IR
-# PRODUCT_PACKAGES += \
-#     android.hardware.ir@1.v0-serice.cancro
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.v0-serice.cancro
 
-# PRODUCT_COPY_FILES += \
-#     frameworks/native/data/etc/android.hardware.consumerir.xml:system/vendor/etc/permissions/android.hardware.consumerir.xml
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:system/vendor/etc/permissions/android.hardware.consumerir.xml
 
 # KeyLayout
 PRODUCT_COPY_FILES += \
@@ -71,8 +71,8 @@ PRODUCT_PACKAGES += \
     sensors.msm8974
 
 # # Touch
-# PRODUCT_PACKAGES += \
-#     vendor.lineage.touch@1.0-service.cancro
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.cancro
 
 # WiFi
 PRODUCT_COPY_FILES += \

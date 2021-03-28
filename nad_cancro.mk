@@ -19,7 +19,7 @@ $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-PRODUCT_NAME := evolution_cancro
+PRODUCT_NAME := nad_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

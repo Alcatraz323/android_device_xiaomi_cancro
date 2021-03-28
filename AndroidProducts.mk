@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nusan_cancro.mk
+    $(LOCAL_DIR)/nad_cancro.mk
 
 COMMON_LUNCH_CHOICES := \
-    nusan_cancro-user \
-    nusan_cancro-userdebug \
-    nusan_cancro-eng
+    nad_cancro-user \
+    nad_cancro-userdebug \
+    nad_cancro-eng
